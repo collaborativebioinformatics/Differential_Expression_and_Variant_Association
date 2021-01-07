@@ -2,4 +2,4 @@
 aka Environmental effects on risk variants
 
 
-<img src="./flowchart.svg">
+<img src="./Ed_Flowchart.svg">
