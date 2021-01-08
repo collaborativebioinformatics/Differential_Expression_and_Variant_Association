@@ -4,6 +4,8 @@ import pandas as pd
 
 import prince
 
+import plotnine as p9
+
 def calculate_mca(dframe : pd.DataFrame) -> prince.MCA:
     mca = prince.MCA(
                     n_components=2,
