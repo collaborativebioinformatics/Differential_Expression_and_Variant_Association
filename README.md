@@ -38,7 +38,7 @@ Considering the flowchart above, most of the functions were able to be implement
 ### How to use this tool!
 
 ## Testing
-Test data belongs to the following dataset: Suzuki et al. 2019, ENA accession: PRJDB6952 
+Test data belongs to the following dataset: Suzuki et al. 2019, ENA accession: PRJDB6952  
 A minimal experimental design for differential expression testing was performed in order to develop the pipeline code and methods  
 CONTROL ACC:  
 DRR131561  
