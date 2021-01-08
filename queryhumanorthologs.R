@@ -64,7 +64,10 @@ if (!BLASTPresent) {
 Args <- commandArgs(trailingOnly = TRUE)
 
 if (length(Args) > 2L) {
-  stop ("Only 2 arguments are currently accepted")
+  stop ("Only 2 arguments are currently accepted.")
+}
+if (length(Args) == 1L) {
+  stop ("An argument is missing.")
 }
 
 suppressMessages(library(Biostrings))
