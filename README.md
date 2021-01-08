@@ -22,7 +22,7 @@ Well, if one can find the needles, it's not so mcuh of a stretch eventually unlo
 At its simplest level, it uses multiple correspondance analysis to help facilitate dimension reduction and highlight genes and variants to explore next. These variants can also provide a clinican and patient with more information. Additional features: ortholog mapping for researchers using model organisms, drug targeting, and gene ontology/pathway enrichment to provide further nuance to the factors considered in correspondance analysis.
 
 ## ViraVate - A Visualization
-<img src="./Ed_Flowchart.svg">
+<img src="./Revised_Flowchart.svg">
 
 ## Implementation (let me know if I should remove this - probably need help!)
 Considering the flowchart above, most of the functions were able to be implemented with pre-existing tools. Multiple correspondance analysis was implemented using [prince](https://github.com/MaxHalford/Prince).  
