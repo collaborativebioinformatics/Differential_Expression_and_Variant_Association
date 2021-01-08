@@ -21,10 +21,6 @@ Well, if one can find the needles, it's not so mcuh of a stretch eventually unlo
 ## What does ViraVate do?
 At its simplest level, it uses multiple correspondance analysis to help facilitate dimension reduction and highlight genes and variants to explore next. These variants can also provide a clinican and patient with more information. Additional features: ortholog mapping for researchers using model organisms, drug targeting, and gene ontology/pathway enrichment to provide further nuance to the factors considered in correspondance analysis.
 
-## Fine, but what does it really do?
-You'll get a pretty picture once I make one in the morning (and appropriate text and removal of ADHD rambling).
-
-
 ## ViraVate - A Visualization
 <img src="./Ed_Flowchart.svg">
 
@@ -42,6 +38,17 @@ Considering the flowchart above, most of the functions were able to be implement
 ### How to use this tool!
 
 ## Testing
+Test data belongs to the following dataset: Suzuki et al. 2019, ENA accession: PRJDB6952
+A minimal experimental design for differential expression testing was performed in order to develop the pipeline code and methods.
+CONTROL ACC:
+DRR131561
+DRR131570
+DRR131593 
+TREATMENT ACC:
+DRR131576
+DRR131588
+DRR131599
+The concentrations for treatment samples (0.01, 0.1, and 1.0) were used as replicates for this exmaple since no direct replicates were available. The only time point considered was 24 hours.
 ### Dataset
 ### Differential Expression
 ### MCA Input Creation
