@@ -1,4 +1,4 @@
-# viravate2
+# Differential Expression & Variant Association
 
 ## Goal
 Develop a tool to connect common risk variants of a generic disease to the differential expression that drives its pathology.
