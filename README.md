@@ -100,9 +100,9 @@ The concentrations for treatment samples (0.01, 0.1, and 1.0) were used as repli
 ## Team Members:
 Lead: Sierra D. Miller  
 Manuel Belmadani  
-Nicholas Cooley 
+Nicholas Cooley   
 Annie Nadkarni  
-Stephen Price 
+Stephen Price   
 Barry Zorman  
 Writer: Shamika Dhuri 
 
