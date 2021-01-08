@@ -6,6 +6,14 @@
 # Biostrings
 # BLAST
 
+# Basic format:
+# Script will pull the proteome for the human genome and take in the proteome of a user's
+# choice and perform reciprocal best hits between the two. This is the barest bones, but also
+# the most flexible way to predict orthology. BLAST will be run with standard arguments with the exception of:
+# if R can detect multiple cores, it will try to and blastp against the max number of cores possible
+# and smith waterman trackback is enabled
+# evalue cutoff is set to 1e-6
+
 # usage:
 # Rscript queryhumanorthologs.R <target proteome> <output filename>
 
