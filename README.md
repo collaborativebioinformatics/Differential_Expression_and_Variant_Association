@@ -38,6 +38,7 @@ Considering the flowchart above, most of the functions were able to be implement
 ### How to use this tool!
 
 ## Testing
+### Dataset
 Test data belongs to the following dataset: Suzuki et al. 2019, ENA accession: PRJDB6952  
 A minimal experimental design for differential expression testing was performed in order to develop the pipeline code and methods  
 CONTROL ACC:  
@@ -49,7 +50,6 @@ DRR131576
 DRR131588  
 DRR131599  
 The concentrations for treatment samples (0.01, 0.1, and 1.0) were used as replicates for this exmaple since no direct replicates were available. The only time point considered was 24 hours.
-### Dataset
 ### Differential Expression
 ### MCA Input Creation
 ### Inputs
