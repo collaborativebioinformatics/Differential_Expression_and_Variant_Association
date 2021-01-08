@@ -24,7 +24,7 @@ At its simplest level, it uses multiple correspondance analysis to help facilita
 ## ViraVate - A Visualization
 <img src="./Revised_Flowchart.svg">
 
-## Implementation (let me know if I should remove this - probably need help!)
+## Implementation
 Considering the flowchart above, most of the functions were able to be implemented with pre-existing tools. Multiple correspondance analysis was implemented using [prince](https://github.com/MaxHalford/Prince).  
 ## Operation
 ### Inputs
@@ -38,9 +38,7 @@ Considering the flowchart above, most of the functions were able to be implement
 ### How to use this tool!
 #### Getting Started
 Gather the above inputs. To be able to use the multiple correspondance analysis, the differential expression data needs to be in a categorical form.   
-Setting that up is easy enough! To get your data into the appropriate input, use (hopefully a script here for user).
-#### Optional Analysis
-If one wants to include drug target information or pathways analysis, use the enrichr pipeline provided to add these factors into your MCA input.   
+Setting that up is easy enough! To get your data into the appropriate input, use the enrichr pipeline provided. It will also add additional factors into your MCA input.   
 Now we're ready to start the set up and push your data through!
 #### First Time Using? -- Create the conda environment
 
