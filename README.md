@@ -36,6 +36,48 @@ Considering the flowchart above, most of the functions were able to be implement
 * For non-human data, orthologs applicable to model organism research.
 
 ### How to use this tool!
+#### Getting Started
+Gather the above inputs. To be able to use the multiple correspondance analysis, the differential expression data needs to be in a categorical form.   
+Setting that up is easy enough! To get your data into the appropriate input, use (hopefully a script here for user).
+#### Optional Analysis
+If one wants to include drug target information or pathways analysis, use the enrichr pipeline provided to add these factors into your MCA input.   
+Now we're ready to start the set up and push your data through!
+#### First Time Using? -- Create the conda environment
+
+```
+./import_conda.sh
+conda activate viravate2
+```
+
+#### See options
+
+```
+(viravate2) z@z-Lenovo-Z51-70:~/development/viravate2$ python src/python/corresponder.py --help
+usage: corresponder.py [-h] [-v | -q] [--input_path INPUT_PATH]
+                       [--output_path OUTPUT_PATH]
+
+Calculated Correspondance Analysis
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --verbose
+  -q, --quiet
+  --input_path INPUT_PATH
+                        Path to the data frame
+  --output_path OUTPUT_PATH
+                        Path to the data frame
+```
+
+
+#### Default run
+
+See the arguments; there should be files to do just a dry run like so:
+
+`python src/python/corresponder.py`
+
+#### Update conda
+
+If you install additional conda packages, the `export_conda.sh` script will update the environement.
 
 ## Testing
 ### Dataset
