@@ -35,7 +35,7 @@ def dfs_tabs(df_list, sheet_list, file_name):
 
 
  # pathways   
-SetList = ['ENCODE_and_ChEA_Consensus_TFs_from_ChIP-X','ChEA_2016','ENCODE_TF_ChIP-seq_2015', 'TRANSFAC_and_JASPAR_PWMs', 'Genome_Browser_PWMs', 'TF-LOF_Expression_from_GEO','GO_Biological_Process_2015','GO_Cellular_Component_2015', 'GO_Molecular_Function_2015','Panther_2016','DrugMatrix','DSigDB']
+SetList = ['ENCODE_and_ChEA_Consensus_TFs_from_ChIP-X','ChEA_2016','ENCODE_TF_ChIP-seq_2015', 'TRANSFAC_and_JASPAR_PWMs', 'Genome_Browser_PWMs', 'TF-LOF_Expression_from_GEO','GO_Biological_Process_2018','GO_Cellular_Component_2018', 'GO_Molecular_Function_2018','Panther_2016','DrugMatrix','DSigDB']
 framelist = []
 
 sys.ps1 = 'test'
