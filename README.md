@@ -29,11 +29,11 @@ You'll get a pretty picture once I make one in the morning (and appropriate text
 <img src="./Ed_Flowchart.svg">
 
 ## Implementation (let me know if I should remove this - probably need help!)
-Considering the flowchart above, most of the functions were able to be implemented with pre-existing tools. Multiple correspondance analysis was implemented using [prince] (https://github.com/MaxHalford/Prince).  
+Considering the flowchart above, most of the functions were able to be implemented with pre-existing tools. Multiple correspondance analysis was implemented using [prince](https://github.com/MaxHalford/Prince).  
 ## Operation
 ### Inputs
 * Differential Expression from desired RNASeq data.
-* vcf.gz file (we reccomend getting this with the following [method] (https://github.com/collaborativebioinformatics/expressed-variant-impact)).
+* vcf.gz file (we reccomend getting this with the following [method](https://github.com/collaborativebioinformatics/expressed-variant-impact)).
 
 ### Outputs
 * A list of differentially expressed genes associated with provided variants.
