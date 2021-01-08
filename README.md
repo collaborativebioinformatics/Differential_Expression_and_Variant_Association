@@ -29,21 +29,21 @@ You'll get a pretty picture once I make one in the morning (and appropriate text
 <img src="./Ed_Flowchart.svg">
 
 ## Implementation
-# Multiple Correspondance Analysis
-# Variant Finding
-# Orthologs
+### Multiple Correspondance Analysis
+### Variant Finding
+### Orthologs
 
 ## Operation
-# Inputs
-# Outputs
-# How to use this tool!
+### Inputs
+### Outputs
+### How to use this tool!
 
 ## Testing
-# Dataset
-# Differential Expression
-# MCA Input Creation
-# Inputs
-# Outputs
+### Dataset
+### Differential Expression
+### MCA Input Creation
+### Inputs
+### Outputs
 
 ## Team Members:
 Lead: Sierra D. Miller
