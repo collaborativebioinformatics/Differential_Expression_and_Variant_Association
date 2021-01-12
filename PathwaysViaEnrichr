@@ -7,9 +7,7 @@ import re
 import os
 import fnmatch
 from math import *
-import numpy 
-#import matplotlib 
-#import pylab
+import numpy  
 import scipy
 from scipy import stats
 import xlwt
