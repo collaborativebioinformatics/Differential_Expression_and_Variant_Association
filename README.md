@@ -1,8 +1,9 @@
 # viravate2
 aka Environmental effects on risk variants
 
+<img src="./Ed_Flowchart.svg">
 
-## Correspondance analysis
+## Correspondance analysis requirements
 
 ### Create the conda environment
 
@@ -40,3 +41,4 @@ See the arguments; there should be files to do just a dry run like so:
 ### Update conda
 
 If you install additional conda packages, the `export_conda.sh` script will update the environement.
+
