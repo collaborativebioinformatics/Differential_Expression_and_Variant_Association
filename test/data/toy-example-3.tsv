@@ -1,0 +1,7 @@
+Observation	Experiment1	Experiment2	Experiment3	Experiment4
+PTEN	UP	UP	UP	DOWN
+SCN2A	DOWN	DOWN	DOWN	DOWN
+Variant1	Y	N	Y	Y
+Variant2	Y	N	Y	N
+Variant3	N	Y	N	N
+PELEVEN	UP	UP	UP	UP
