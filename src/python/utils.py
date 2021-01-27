@@ -22,7 +22,7 @@ def mca_to_coordinates(dframe : pd.DataFrame, mca : prince.MCA) -> pd.DataFrame:
     dframe_coords = mca.column_coordinates(dframe).reset_index()
     dframe_coords.columns = ["Factor", "x", "y"]
     dframe_coords["AssociationType"] = [x.split("_")[0] for x in dframe_coords["Factor"].tolist()]
-    dframe_coords["Value"] = ["_".join(x.split("_")[-1:]) for x in dframe_coords["Factor"].tolist()]
+    dframe_coords["Value"] = ["_".join(x.split("_")[1:]) for x in dframe_coords["Factor"].tolist()]
     dframe_coords.sort_values("x")
     
     return dframe_coords
